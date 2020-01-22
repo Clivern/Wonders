@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Chipmunk Logo" src="https://raw.githubusercontent.com/Clivern/Chipmunk/master/images/logo.png?v=1.0.0" height="100" />
+    <img alt="Chipmunk Logo" src="https://raw.githubusercontent.com/Clivern/Chipmunk/master/images/logo.png?v=1.0.0" height="150" />
     <h3 align="center">Chipmunk</h3>
     <p align="center">
         <a href="https://travis-ci.org/Clivern/Chipmunk"><img src="https://travis-ci.org/Clivern/Chipmunk.svg?branch=master"></a>
