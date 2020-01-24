@@ -14,9 +14,7 @@
 ### Installation:
 
 ```zsh
-$ sudo add-apt-repository ppa:clivern/ppa
-$ sudo apt-get update
-$ sudo apt-get install chipmunk
+#
 ```
 
 
