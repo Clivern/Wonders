@@ -1,0 +1,12 @@
+[package]
+name = "chipmunk"
+version = "0.1.0"
+authors = ["Clivern <hello@clivern.com>"]
+edition = "2018"
+description = "Chipmunk is a Rust package which provides utility functions for common programming tasks."
+license = "MIT"
+repository = "https://github.com/Clivern/Chipmunk"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
