@@ -1,12 +1,27 @@
 [package]
-name = "chipmunk"
+name = "wonders"
 version = "0.1.0"
 authors = ["Clivern <hello@clivern.com>"]
-edition = "2018"
-description = "Wonders is A Rust package which provides Utility Functions for Common Programming Tasks."
+edition = "2021"
+description = "A Twitter Bot for Universe Pictures, Set up in Minutes."
 license = "MIT"
 repository = "https://github.com/Clivern/Wonders"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = "4.1.4"
+postgres = "0.19.4"
+rocket = "0.4.11"
+serde = "1.0.152"
+serde_json = "1.0.93"
+serde_with = "2.2.0"
+toml = "0.7.2"
+
+
+[profile.release]
+opt-level = "z"     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = true        # Automatically strip symbols from the binary.

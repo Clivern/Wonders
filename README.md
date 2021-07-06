@@ -1,7 +1,7 @@
 <p align="center">
     <img src="/static/logo.png" width="200" />
     <h3 align="center">Wonders</h3>
-    <p align="center">A Twitter Bot for Universe Pictures</p>
+    <p align="center">A Twitter Bot for Universe Pictures, Set up in Minutes.</p>
     <p align="center">
         <a href="https://github.com/Clivern/Wonders/actions"><img src="https://github.com/Clivern/Wonders/actions/workflows/build.yml/badge.svg"></a>
         <a href="https://github.com/Clivern/Wonders/releases"><img src="https://img.shields.io/badge/Version-v0.1.0-green.svg"></a>
