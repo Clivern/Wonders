@@ -3,9 +3,9 @@ name = "chipmunk"
 version = "0.1.0"
 authors = ["Clivern <hello@clivern.com>"]
 edition = "2018"
-description = "Chipmunk is A Rust package which provides Utility Functions for Common Programming Tasks."
+description = "Wonders is A Rust package which provides Utility Functions for Common Programming Tasks."
 license = "MIT"
-repository = "https://github.com/Clivern/Chipmunk"
+repository = "https://github.com/Clivern/Wonders"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

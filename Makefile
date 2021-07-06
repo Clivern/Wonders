@@ -4,7 +4,7 @@ rustup ?= rustup
 
 help: Makefile
 	@echo
-	@echo " Choose a command run in Chipmunk:"
+	@echo " Choose a command run in Wonders:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
