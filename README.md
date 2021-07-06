@@ -1,7 +1,7 @@
 <p align="center">
     <img src="/static/logo.png" width="200" />
     <h3 align="center">Chipmunk</h3>
-    <p align="center">a Rust package which provides utility functions for common programming tasks.</p>
+    <p align="center">A Rust package which provides Utility Functions for Common Programming Tasks.</p>
     <p align="center">
         <a href="https://github.com/Clivern/Chipmunk/actions"><img src="https://github.com/Clivern/Chipmunk/actions/workflows/build.yml/badge.svg"></a>
         <a href="https://github.com/Clivern/Chipmunk/releases"><img src="https://img.shields.io/badge/Version-v0.1.0-green.svg"></a>

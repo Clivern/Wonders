@@ -3,7 +3,7 @@ name = "chipmunk"
 version = "0.1.0"
 authors = ["Clivern <hello@clivern.com>"]
 edition = "2018"
-description = "Chipmunk is a Rust package which provides utility functions for common programming tasks."
+description = "Chipmunk is A Rust package which provides Utility Functions for Common Programming Tasks."
 license = "MIT"
 repository = "https://github.com/Clivern/Chipmunk"
 
