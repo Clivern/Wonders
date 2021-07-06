@@ -6,6 +6,7 @@
 
 mod cmd;
 mod controller;
+mod core;
 mod db;
 mod util;
 
