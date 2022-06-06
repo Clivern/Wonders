@@ -23,4 +23,15 @@ impl Database {
             Err(_err) => Err(String::from("Unable to establish database connection!")),
         }
     }
+
+    pub fn insert(
+        &self,
+        name: String,
+        payload: String,
+        status: String,
+        created_at: i64,
+        updated_at: i64,
+    ) {
+        // TODO
+    }
 }
