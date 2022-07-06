@@ -16,6 +16,9 @@ pub struct Config {
 #[derive(Debug, Deserialize)]
 pub struct AppConfig {
     pub db: String,
+    pub cache: String,
+    pub nasa_api_key: String,
+    pub nasa_api_url: String,
 }
 
 pub fn get_env(key: &str, def: &str) -> String {

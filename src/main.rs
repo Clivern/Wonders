@@ -34,6 +34,12 @@ fn main() {
                 .long_flag("migrate")
                 .about("Migrate the database"),
         )
+        .subcommand(
+            Command::new("daemon")
+                .short_flag('d')
+                .long_flag("daemon")
+                .about("Run the daemon"),
+        )
         .get_matches();
 
     match matches.subcommand() {
@@ -42,6 +48,9 @@ fn main() {
 
         // migrate command
         Some(("migrate", _sub_matches)) => cmd::migrate::migrate(),
+
+        // daemon command
+        Some(("daemon", _sub_matches)) => cmd::daemon::daemon(),
         _ => unreachable!(),
     }
 }
